@@ -1,0 +1,80 @@
+[
+  {
+    "model": "AE",
+    "latent_dimension": 64,
+    "training_seconds_per_epoch": 6.971850621099975,
+    "latency_ms_batch64": 0.18319559999326884,
+    "latency_operation": "reconstruction",
+    "MSE": 0.010237696426255362,
+    "PSNR": 20.771824759347098,
+    "SSIM": 0.7528844804272818,
+    "FID": null,
+    "stability_notes": "Isi berdasarkan kurva dan sampel aktual",
+    "quick_run": false
+  },
+  {
+    "model": "Sparse AE",
+    "latent_dimension": 64,
+    "training_seconds_per_epoch": 6.7180504674999835,
+    "latency_ms_batch64": 0.19576959998630628,
+    "latency_operation": "reconstruction",
+    "MSE": 0.011581557597432818,
+    "PSNR": 20.22143373325893,
+    "SSIM": 0.7243592591665693,
+    "FID": null,
+    "stability_notes": "Isi berdasarkan kurva dan sampel aktual",
+    "quick_run": false
+  },
+  {
+    "model": "VAE",
+    "latent_dimension": 64,
+    "training_seconds_per_epoch": 6.923836495700027,
+    "latency_ms_batch64": 0.09694380000837555,
+    "latency_operation": "generation",
+    "MSE": 0.014720971924918039,
+    "PSNR": 19.080599783761162,
+    "SSIM": 0.6828299985346448,
+    "FID": 105.39149182743824,
+    "stability_notes": "Isi berdasarkan kurva dan sampel aktual",
+    "quick_run": false
+  },
+  {
+    "model": "GAN",
+    "latent_dimension": 100,
+    "training_seconds_per_epoch": 8.097476958000005,
+    "latency_ms_batch64": 0.2540828000746842,
+    "latency_operation": "generation",
+    "MSE": null,
+    "PSNR": null,
+    "SSIM": null,
+    "FID": 176.21085720348367,
+    "stability_notes": "Isi berdasarkan kurva dan sampel aktual",
+    "quick_run": false
+  },
+  {
+    "model": "DCGAN",
+    "latent_dimension": 100,
+    "training_seconds_per_epoch": 13.983445433400016,
+    "latency_ms_batch64": 2.5105812000219885,
+    "latency_operation": "generation",
+    "MSE": null,
+    "PSNR": null,
+    "SSIM": null,
+    "FID": 430.0841466597127,
+    "stability_notes": "Isi berdasarkan kurva dan sampel aktual",
+    "quick_run": false
+  },
+  {
+    "model": "DDPM",
+    "latent_dimension": "1x28x28 noise",
+    "training_seconds_per_epoch": 21.94300755290003,
+    "latency_ms_batch64": 7091.11554760002,
+    "latency_operation": "generation",
+    "MSE": null,
+    "PSNR": null,
+    "SSIM": null,
+    "FID": 53.821724341226,
+    "stability_notes": "Isi berdasarkan kurva dan sampel aktual",
+    "quick_run": false
+  }
+]

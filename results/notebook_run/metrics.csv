@@ -1,0 +1,7 @@
+model,latent_dimension,training_seconds_per_epoch,latency_ms_batch64,latency_operation,MSE,PSNR,SSIM,FID,stability_notes,quick_run
+AE,64,6.971850621099975,0.18319559999326884,reconstruction,0.010237696426255362,20.771824759347098,0.7528844804272818,,Isi berdasarkan kurva dan sampel aktual,False
+Sparse AE,64,6.7180504674999835,0.19576959998630628,reconstruction,0.011581557597432818,20.22143373325893,0.7243592591665693,,Isi berdasarkan kurva dan sampel aktual,False
+VAE,64,6.923836495700027,0.09694380000837555,generation,0.014720971924918039,19.080599783761162,0.6828299985346448,105.39149182743824,Isi berdasarkan kurva dan sampel aktual,False
+GAN,100,8.097476958000005,0.2540828000746842,generation,,,,176.21085720348367,Isi berdasarkan kurva dan sampel aktual,False
+DCGAN,100,13.983445433400016,2.5105812000219885,generation,,,,430.0841466597127,Isi berdasarkan kurva dan sampel aktual,False
+DDPM,1x28x28 noise,21.94300755290003,7091.11554760002,generation,,,,53.821724341226,Isi berdasarkan kurva dan sampel aktual,False

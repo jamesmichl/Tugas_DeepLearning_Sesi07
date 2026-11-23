@@ -1,0 +1,154 @@
+CELL INDEX 3 (0-based)
+Device: cuda
+
+
+CELL INDEX 4 (0-based)
+100%|██████████| 26.4M/26.4M [00:02<00:00, 12.7MB/s]
+100%|██████████| 29.5k/29.5k [00:00<00:00, 200kB/s]
+100%|██████████| 4.42M/4.42M [00:01<00:00, 3.73MB/s]
+100%|██████████| 5.15k/5.15k [00:00<00:00, 28.1MB/s]
+
+
+CELL INDEX 5 (0-based)
+Train: 56000
+Validation: 7000
+Test: 7000
+
+
+CELL INDEX 8 (0-based)
+Epoch 1: train=0.03465, val=0.01980
+Epoch 2: train=0.01767, val=0.01639
+Epoch 3: train=0.01513, val=0.01448
+Epoch 4: train=0.01358, val=0.01335
+Epoch 5: train=0.01257, val=0.01247
+Epoch 6: train=0.01188, val=0.01180
+Epoch 7: train=0.01133, val=0.01154
+Epoch 8: train=0.01085, val=0.01093
+Epoch 9: train=0.01046, val=0.01060
+Epoch 10: train=0.01013, val=0.01030
+
+
+CELL INDEX 11 (0-based)
+Epoch 1: train=299.866, val=274.291
+Epoch 2: train=267.766, val=263.231
+Epoch 3: train=258.627, val=255.925
+Epoch 4: train=253.181, val=252.449
+Epoch 5: train=250.214, val=250.074
+Epoch 6: train=248.351, val=248.572
+Epoch 7: train=247.096, val=247.999
+Epoch 8: train=246.153, val=246.703
+Epoch 9: train=245.449, val=246.443
+Epoch 10: train=244.737, val=245.511
+Checkpoint VAE: epoch 10
+
+
+CELL INDEX 16 (0-based)
+AE: {'MSE': 0.010237696426255362, 'PSNR': 20.771824759347098, 'SSIM': 0.7528844804272818}
+VAE: {'MSE': 0.014720971924918039, 'PSNR': 19.080599783761162, 'SSIM': 0.6828299985346448}
+
+
+CELL INDEX 17 (0-based)
+AE training seconds/epoch: 6.971850621099975
+VAE training seconds/epoch: 6.923836495700027
+AE reconstruction ms/batch64: 0.17185843333133258
+VAE generation ms/batch64: 0.07215763333382104
+
+
+CELL INDEX 20 (0-based)
+Epoch 1: train MSE=0.03522, val MSE=0.02032
+Epoch 2: train MSE=0.01820, val MSE=0.01701
+Epoch 3: train MSE=0.01588, val MSE=0.01526
+Epoch 4: train MSE=0.01456, val MSE=0.01436
+Epoch 5: train MSE=0.01376, val MSE=0.01381
+Epoch 6: train MSE=0.01314, val MSE=0.01313
+Epoch 7: train MSE=0.01265, val MSE=0.01273
+Epoch 8: train MSE=0.01221, val MSE=0.01233
+Epoch 9: train MSE=0.01185, val MSE=0.01208
+Epoch 10: train MSE=0.01150, val MSE=0.01163
+
+
+CELL INDEX 25 (0-based)
+GAN 1: G=2.610, D=0.202
+GAN 2: G=4.439, D=0.152
+GAN 3: G=3.057, D=0.233
+GAN 4: G=2.631, D=0.277
+GAN 5: G=2.564, D=0.305
+GAN 6: G=2.521, D=0.323
+GAN 7: G=2.213, D=0.377
+GAN 8: G=1.984, D=0.407
+GAN 9: G=1.863, D=0.427
+GAN 10: G=1.832, D=0.433
+
+
+CELL INDEX 27 (0-based)
+DCGAN 1: G=0.219, D=0.067
+DCGAN 2: G=0.017, D=0.001
+DCGAN 3: G=0.029, D=0.000
+DCGAN 4: G=0.124, D=0.000
+DCGAN 5: G=0.053, D=0.000
+DCGAN 6: G=0.072, D=0.000
+DCGAN 7: G=0.097, D=0.000
+DCGAN 8: G=0.145, D=0.000
+DCGAN 9: G=0.072, D=0.000
+DCGAN 10: G=0.054, D=0.000
+
+
+CELL INDEX 32 (0-based)
+DDPM 1: noise MSE=0.10342, val=0.06445
+DDPM 2: noise MSE=0.05940, val=0.05448
+DDPM 3: noise MSE=0.05263, val=0.05163
+DDPM 4: noise MSE=0.04962, val=0.05026
+DDPM 5: noise MSE=0.04743, val=0.04743
+DDPM 6: noise MSE=0.04643, val=0.04739
+DDPM 7: noise MSE=0.04523, val=0.04682
+DDPM 8: noise MSE=0.04445, val=0.04447
+DDPM 9: noise MSE=0.04431, val=0.04385
+DDPM 10: noise MSE=0.04257, val=0.04543
+
+
+CELL INDEX 35 (0-based)
+MLP 1: train acc=0.792, val acc=0.832
+MLP 2: train acc=0.855, val acc=0.858
+MLP 3: train acc=0.868, val acc=0.867
+MLP 4: train acc=0.878, val acc=0.860
+MLP 5: train acc=0.884, val acc=0.876
+MLP 6: train acc=0.892, val acc=0.876
+MLP 7: train acc=0.893, val acc=0.881
+MLP 8: train acc=0.898, val acc=0.880
+MLP 9: train acc=0.903, val acc=0.885
+MLP 10: train acc=0.905, val acc=0.886
+
+
+CELL INDEX 36 (0-based)
+Frozen decoder 1: MSE=0.03716, val=0.02751
+Frozen decoder 2: MSE=0.02486, val=0.02355
+Frozen decoder 3: MSE=0.02237, val=0.02182
+Frozen decoder 4: MSE=0.02117, val=0.02095
+Frozen decoder 5: MSE=0.02033, val=0.02031
+Frozen decoder 6: MSE=0.01977, val=0.01988
+Frozen decoder 7: MSE=0.01930, val=0.01944
+Frozen decoder 8: MSE=0.01895, val=0.01918
+Frozen decoder 9: MSE=0.01863, val=0.01883
+Frozen decoder 10: MSE=0.01833, val=0.01879
+
+
+CELL INDEX 50 (0-based)
+MLP test accuracy: 88.40%; target >= 88%: True
+AE {'model': 'AE', 'latent_dimension': 64, 'training_seconds_per_epoch': 6.971850621099975, 'latency_ms_batch64': 0.18319559999326884, 'latency_operation': 'reconstruction', 'MSE': 0.010237696426255362, 'PSNR': 20.771824759347098, 'SSIM': 0.7528844804272818, 'FID': None, 'stability_notes': 'Isi berdasarkan kurva dan sampel aktual', 'quick_run': False}
+Sparse AE {'model': 'Sparse AE', 'latent_dimension': 64, 'training_seconds_per_epoch': 6.7180504674999835, 'latency_ms_batch64': 0.19576959998630628, 'latency_operation': 'reconstruction', 'MSE': 0.011581557597432818, 'PSNR': 20.22143373325893, 'SSIM': 0.7243592591665693, 'FID': None, 'stability_notes': 'Isi berdasarkan kurva dan sampel aktual', 'quick_run': False}
+
+
+CELL INDEX 50 (0-based)
+Downloading: "https://github.com/toshas/torch-fidelity/releases/download/v0.2.0/weights-inception-2015-12-05-6726825d.pth" to /root/.cache/torch/hub/checkpoints/weights-inception-2015-12-05-6726825d.pth
+100%|██████████| 91.2M/91.2M [00:00<00:00, 132MB/s]
+
+
+CELL INDEX 50 (0-based)
+FID VAE: 105.3915 (7000 real, 7000 generated)
+VAE {'model': 'VAE', 'latent_dimension': 64, 'training_seconds_per_epoch': 6.923836495700027, 'latency_ms_batch64': 0.09694380000837555, 'latency_operation': 'generation', 'MSE': 0.014720971924918039, 'PSNR': 19.080599783761162, 'SSIM': 0.6828299985346448, 'FID': 105.39149182743824, 'stability_notes': 'Isi berdasarkan kurva dan sampel aktual', 'quick_run': False}
+FID GAN: 176.2109 (7000 real, 7000 generated)
+GAN {'model': 'GAN', 'latent_dimension': 100, 'training_seconds_per_epoch': 8.097476958000005, 'latency_ms_batch64': 0.2540828000746842, 'latency_operation': 'generation', 'MSE': None, 'PSNR': None, 'SSIM': None, 'FID': 176.21085720348367, 'stability_notes': 'Isi berdasarkan kurva dan sampel aktual', 'quick_run': False}
+FID DCGAN: 430.0841 (7000 real, 7000 generated)
+DCGAN {'model': 'DCGAN', 'latent_dimension': 100, 'training_seconds_per_epoch': 13.983445433400016, 'latency_ms_batch64': 2.5105812000219885, 'latency_operation': 'generation', 'MSE': None, 'PSNR': None, 'SSIM': None, 'FID': 430.0841466597127, 'stability_notes': 'Isi berdasarkan kurva dan sampel aktual', 'quick_run': False}
+FID DDPM: 53.8217 (7000 real, 7000 generated)
+DDPM {'model': 'DDPM', 'latent_dimension': '1x28x28 noise', 'training_seconds_per_epoch': 21.94300755290003, 'latency_ms_batch64': 7091.11554760002, 'latency_operation': 'generation', 'MSE': None, 'PSNR': None, 'SSIM': None, 'FID': 53.821724341226, 'stability_notes': 'Isi berdasarkan kurva dan sampel aktual', 'quick_run': False}

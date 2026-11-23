@@ -1,0 +1,15 @@
+{
+  "classifier_test_accuracy": 0.884,
+  "classifier_accuracy_source": "Notebook cell index 50, printed to two decimal places in percent",
+  "frozen_decoder": {
+    "MSE": 0.018759557144982474,
+    "PSNR": 17.93824192592076,
+    "SSIM": 0.6321493597504065
+  },
+  "latent_transpose": {
+    "MSE": 0.26069713265555244,
+    "PSNR": 5.893766911097935,
+    "SSIM": 0.10863303860642973
+  },
+  "reconstruction_metrics_source": "Output tambahan classifier_results yang diberikan pengguna melalui screenshot; bukan output yang tercetak pada notebook terlampir."
+}
